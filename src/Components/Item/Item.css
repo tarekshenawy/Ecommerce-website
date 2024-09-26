@@ -1,0 +1,23 @@
+.item{
+    width: 100%;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.item img{
+    width: 100%;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+.item img:hover{
+    transform: scale(1.1);
+}
+ .item .prices{
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+  
+ }
+ .item .prices .old{
+    color: gray;
+ }
